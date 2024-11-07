@@ -1,3 +1,2 @@
 - [Introduction](/docs/introduction.md)
-- [Control Flow and Loops](/docs/control_flow.md)
 - [Object Oriented Programming](/docs/object_oriented_programming.md)
