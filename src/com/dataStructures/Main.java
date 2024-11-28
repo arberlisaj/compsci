@@ -2,6 +2,7 @@ package com.dataStructures;
 
 import com.dataStructures.arrays.Array;
 import com.dataStructures.binaryTrees.Tree;
+import com.dataStructures.heaps.MaxHeap;
 import com.dataStructures.linkedLists.LinkedList;
 import com.dataStructures.stacks.Stack;
 
@@ -45,5 +46,10 @@ public class Main {
 
     System.out.println(!secondTree.contains(11));
     System.out.println(firstTree.equals(secondTree));
+
+    System.out.println("--------------");
+
+    int[] grades = {1, 2, 5, 1, 2, 3};
+    System.out.println(MaxHeap.getKthLargest(grades, 2));
   }
 }
