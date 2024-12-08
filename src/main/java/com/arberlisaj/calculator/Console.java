@@ -1,4 +1,4 @@
-package com.arberlisaj;
+package com.arberlisaj.calculator;
 
 import java.util.Scanner;
 

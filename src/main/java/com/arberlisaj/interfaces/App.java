@@ -1,6 +1,6 @@
 package com.arberlisaj.interfaces;
 
-public class Main {
+public class App{
   public static void main(String[] args) {
     var calculator = new TaxCalculator2024(100_000);
     var report = new TaxReport();

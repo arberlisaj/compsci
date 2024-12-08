@@ -1,8 +1,8 @@
 package com.arberlisaj.classes;
 
-public class Main {
+public class App {
   public static void main(String[] args) {
-    var employee = new Employee(50_000, 15);
+    Employee employee = new Employee(50_000, 20);
     Employee.printNumberOfEmployees();
     int wage = employee.calculateWage();
     System.out.println(wage);

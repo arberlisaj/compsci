@@ -1,7 +1,6 @@
 package com.arberlisaj.classes;
 
 public class BankAccount {
-
   // Static field shared by all accounts
   private static double interestRate = 0.02;
   // Fields (private for encapsulation)
@@ -36,7 +35,7 @@ public class BankAccount {
       balance += amount;
       System.out.println("Deposited: $" + amount);
     } else {
-      System.out.println("Deposit amount must be positive.");
+      System.out.println("Invalid amount.");
     }
   }
 
@@ -46,7 +45,7 @@ public class BankAccount {
       balance -= amount;
       System.out.println("Withdrew: $" + amount);
     } else {
-      System.out.println("Insufficient funds or invalid amount.");
+      System.out.println("Invalid amount.");
     }
   }
 

@@ -28,23 +28,24 @@ public class Employee {
     return calculateWage(0);
   }
 
-  private void setBaseSalary(int baseSalary) {
-    if (baseSalary <= 0)
-      throw new IllegalArgumentException("Salary cannot be 0 or a negative number");
-    this.baseSalary = baseSalary;
+  public void setBaseSalary(int baseSalary) {
+    if (baseSalary <= 0) {
+      throw new IllegalArgumentException("Salary cannot be 0 or less.");
+    } else {
+      this.baseSalary = baseSalary;
+    }
   }
 
-  private int getBaseSalary() {
+  public int getBaseSalaru() {
     return baseSalary;
   }
 
-  private int getHourlyRate() {
+  public int getHourlyRate() {
     return hourlyRate;
   }
 
-  private void setHourlyRate(int hourlyRate) {
-    if (hourlyRate < 0)
-      throw new IllegalArgumentException("Hourly rate cannot be 0 or a negative number");
+  public void setHourlyRate(int hourlyRate) {
+    if (hourlyRate < 0) throw new IllegalArgumentException("Hourly rate cannot be 0 or nevative.");
     this.hourlyRate = hourlyRate;
   }
 }

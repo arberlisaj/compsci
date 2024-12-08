@@ -1,4 +1,4 @@
-package com.arberlisaj;
+package com.arberlisaj.calculator;
 
 public class MortgageCalculator {
   // Constants
@@ -35,7 +35,7 @@ public class MortgageCalculator {
   }
 
   public double[] getRemainingBalances() {
-    var balances = new double[getNumberOfPayments()];
+    double[] balances = new double[getNumberOfPayments()];
     for (short month = 1; month <= balances.length; month++)
       balances[month - 1] = calculateBalance(month);
     return balances;

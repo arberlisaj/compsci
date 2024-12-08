@@ -6,7 +6,7 @@ import com.dataStructures.heaps.MaxHeap;
 import com.dataStructures.linkedLists.LinkedList;
 import com.dataStructures.stacks.Stack;
 
-public class Main {
+public class App {
   public static void main(String[] args) {
     var numbers = new Array(3);
     numbers.insert(1);

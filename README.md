@@ -1,2 +1,0 @@
-- [Introduction](/docs/introduction.md)
-- [Object Oriented Programming](/docs/object_oriented_programming.md)

@@ -1,8 +1,9 @@
-package com.arberlisaj;
+package com.arberlisaj.calculator;
 
 import java.text.NumberFormat;
 
 public class MortgageReport {
+
   private final NumberFormat currency;
   private final MortgageCalculator calculator;
 
